@@ -39,7 +39,7 @@ export const EditModal = ({ User }) => {
   //************ PATCH REQUEST ***************/
 
   const handleUpdate = async () => {
-    return await axios.patch(`http://localhost:3001/${User._id}`, data, {
+    return await axios.patch(`https://value-pitch.onrender.com/${User._id}`, data, {
       headers: { "Content-type": "application/json; charset=UTF-8" },
     });
   };

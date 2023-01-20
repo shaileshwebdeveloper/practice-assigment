@@ -27,7 +27,7 @@ export const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await axios.post("http://localhost:3001/", data);
+    await axios.post("https://value-pitch.onrender.com", data);
     await getData();
   };
 

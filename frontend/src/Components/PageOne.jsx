@@ -19,11 +19,11 @@ import { CSVLink } from "react-csv";
 import styles from "../css/pageone.module.css";
 
 export const getData = () => {
-  return axios.get("http://localhost:3001/");
+  return axios.get("https://value-pitch.onrender.com/");
 };
 
 export const handleDelete = (id) => {
-  return axios.delete(`http://localhost:3001/${id}`);
+  return axios.delete(`https://value-pitch.onrender.com/${id}`);
 };
 
 export const PageOne = () => {
